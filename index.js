@@ -1,12 +1,11 @@
 const express = require("express");
 const DB = require("qikdb");
-// when u gonna realize i exist
 
 const app = express();
 const port = 3000;
 
 const qik = new DB({
-    name: "database"
+    name: "database" 
 });
 
 app.use(express.static('public'));
