@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    color: white;
+    margin: auto;
+
+    --titlefont: "IBM Plex Sans", sans-serif;
+    --titlesize: 100%;
+    --stdfont: "IBM Plex Sans", sans-serif;
+    --stdsize: 100%;
+
+    --bgaccent:#1C2333;
+    --bgcolor: rgb(14, 21, 37);
+
+    --navhover: rgb(55, 108, 173);
+}
+
+body {
+    background-color: var(--bgcolor);
+    overflow-x: hidden;
+}
+
+#portfolio {
+    text-align: center;
+    font-size: 150%;
+    position: relative;
+    top: 7px;
+    background-color: var(--bgaccent);
+}
+
+#portfolio > h {
+    z-index: 1;
+}
+
+#portfolio > a {
+    text-decoration: none;
+    font-family: var(--titlefont);
+    font-size: 100%;
+    z-index: 2;
+}
+
+#portfolio > a:hover {
+    color: rgb(55, 108, 173);
+}
+#nav-buttons {
+    position: relative;
+    text-decoration: none;
+    font-family: var(--stdfont);
+    z-index: 1;
+    color: white;
+}
+
+#nav-buttons > a {
+    text-decoration: none;
+    font: titlefont;
+    font-size: 100%;
+}
+
+#nav-buttons > a:hover {
+    color: rgb(55, 108, 173);
+}
+
+.ryansyn {
+    left: 100px;
+    bottom: 37px;
+}
+
+.kunosyn {
+    left: 10px;
+    bottom: 15px;
+}
+
+#navContainer {
+    background-color: var(--bgaccent);
+    border-color: var(--bgaccent);
+    border-style: solid; 
+    height: 50px;
+}
+
+#infoEmContainer {
+    position: relative;
+    text-align: center;
+    top: 10px;
+    border-style: solid;
+    background-color: var(--bgaccent);
+    border-color: var(--bgaccent);
+    border-radius: 4px;
+    height: 100px;
+    width: 600px;
+}
+
+#infoEmContainer2 {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    border-style: solid;
+    background-color: var(--bgaccent);
+    border-color: var(--bgaccent);
+    border-radius: 4px;
+    height: 85px;
+    width: 600px;
+}
+
+#infoEmContainer3 {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    border-style: solid;
+    background-color: var(--bgaccent);
+    border-color: var(--bgaccent);
+    border-radius: 4px;
+    height: 185px;
+    width: 600px;
+}
+
+#infoEmContainer4 {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    border-style: solide;
+    background-color: var(--bgaccent);
+    border-color: var(--bgaccent);
+    border-radius: 4px;
+    height: 78px;
+    width: 600px;
+}
+
+#infoEmContainer5 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    border-style: solid;
+    background-color: var(--bgaccent);
+    border-color: var(--bgaccent);
+    border-radius: 4px;
+    height: 45px;
+    width: 600px;
+}
+
+#infoContainer {
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+    border-style: solid;
+    background-color: var(--bgaccent);
+    border-color: var(--bgaccent);
+    border-radius: 4px;
+    height: 290px;
+    width: 200px;
+    float: left;
+}
+
+.tabtext {
+    margin: 0;
+    font-family: stdfont;
+    font-size: stdsize;
+}
+
+#git-ref {
+    top: 20px;
+}
+
+#git-ref:hover {
+    background-color: rgb(55, 108, 173);
+    border-color: rgb(55, 108, 173);
+}
+
+.stdtext {
+    font-family: var(--stdfont);
+    font-size: var(--stdsize);
+}
+
+.stdlink {
+    text-decoration: none;
+}
+
+.stdlink:hover {
+    color: var(--navhover);
+}
+
+.project-description {
+    font-family: var(--stdfont);
+    font-size: 90%;
+}
+
+.titletext {
+    font-family: var(--titlefont);
+    font-size: var(--titlesize);
+}
+
+.links-buttons {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    border-style: solid;
+    background-color: rgb(64, 132, 214);
+    border-color: rgb(64, 132, 214);
+    border-radius: 4px;
+    height: 25px;
+    width: 50px;
+}
